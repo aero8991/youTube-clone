@@ -1,0 +1,149 @@
+.thumbnail {
+  width: 100%;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-left: -2px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+.video-title {
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  margin-left: -2px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.channel-picture {
+  width: 48px;
+}
+
+.profile-picture {
+  width: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hover-container {
+  display: flex;
+  background-color: white;
+  border-radius: 4px;
+  width: 200px;
+  height: 70px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.26);
+  position: absolute;
+  bottom: -43px;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.hover-image {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9px 10px;
+}
+
+.hover-image img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.hover-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 4px;
+}
+
+.hover-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.hover-subs {
+  color: gray;
+  font-size: 14px;
+}
+
+.channel-picture:hover .hover-container {
+  opacity: 1;
+}
+
+.channel-hover {
+  position: relative;
+}
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  right: 5px;
+  bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.thumbnail-row2 {
+  margin-bottom: 10px;
+}
+
+.channel-picture2 {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+.video-info2 {
+  display: inline-block;
+  width: 220px;
+  margin-left: 10px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 16px;
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

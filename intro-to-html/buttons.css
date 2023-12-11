@@ -1,0 +1,241 @@
+.subscribe-button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .subscribe-button:hover {
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active {
+    opacity: 0.5;
+  }
+
+  .join-button {
+    background-color: white;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(6, 95, 212);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .join-button:hover {
+    background-color: rgb(6, 95, 212);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.8;
+  }
+
+  .tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: 0;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .uber-button {
+    background-color: black;
+    color: white;
+    height: 46px;
+    width: 120px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .amzn-button {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 32px;
+    width: 140px;
+    border-radius: 16px;
+    font-weight: 600;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  .gh-button {
+    background-color: rgb(46, 164, 79);
+    border: none;
+    color: white;
+    height: 40px;
+    width: 74px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  .boot1-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    height: 43px;
+    width: 115px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  .boot2-button {
+    background-color: white;
+    color: rgb(121, 82, 179);
+    border-color: rgb(121, 82, 179);
+    border-style: solid;
+    border-width: 1px;
+    height: 43px;
+    width: 115px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+
+  .back-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 10px;
+  }
+
+  .next-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 10px;
+  }
+
+  a {
+    margin-right: 6px;
+    font-size: 18px;
+  }
+
+  .stretch-button {
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    border: 0;
+    cursor: pointer;
+    transition: padding-top 0.15s, padding-left 0.15s, padding-right 0.15s,
+      padding-left 0.15s;
+  }
+
+  .stretch-button:hover {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .shadow-button {
+    background-color: green;
+    color: white;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.15s;
+  }
+
+  .shadow-button:active {
+    box-shadow: 0 0 0 0;
+  }
+
+  .mp1-button {
+    background-color: green;
+    color: white;
+    border: 0;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  .mp1-button:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .mp2-button {
+    background-color: green;
+    color: white;
+    border: 0;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  .mp2-button:hover {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .mp3-button {
+    background-color: green;
+    color: white;
+    border: 0;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+
+  .mp3-button:hover {
+    /* padding-right: 20px; */
+    /* padding-left: 25px; */
+
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
